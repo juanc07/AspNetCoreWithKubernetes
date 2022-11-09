@@ -1,7 +1,12 @@
 # AspNetCoreWithKubernetes
 
-How to test locally
+Assumption:
+1. Your Machine is running atleast Windows 10 OS
+2. Your machine is already setup to run .net project and application
+3. Visual Studio is installed
+4. .Net SDK and .Net Runtimes is installed
 
+How to test locally
 1. Open the project in visual studio
 2. Run the project 
 3. Then access it using this link
