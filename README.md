@@ -33,7 +33,7 @@ Testing Docker
 Testing Kubernetes
 
 Requirement:
-Make sure Desktop Docker is installed in your window machine
+Make sure Desktop Docker is installed in your window machine (https://www.docker.com/products/docker-desktop/)
 
 1. make sure no one is using port 8080 to make this work
 
