@@ -1,0 +1,22 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata: 
+ name: test-aspnetcore-deployment
+spec:
+ selector:
+  matchLabels:
+   app: test-aspnetcore-pod
+ template:
+  metadata:
+   labels:
+    app: test-aspnetcore-pod
+  spec:
+   containers:
+   - name: test-aspnetcore-container
+     image: test-aspnetcore:v1.0.0
+     resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+     ports:
+        - containerPort: 80
